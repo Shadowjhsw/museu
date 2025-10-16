@@ -1,0 +1,130 @@
+    @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav{
+    background-color: #1F1F1F;
+    width: 1535px;
+    height: 90px;
+    float:left;
+    display: flex;
+}
+
+.a{
+    color: white;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-family: "Cinzel", serif;
+}
+
+.at{
+    margin-left: 80px;
+    float: left;
+    display: flex;
+}
+
+.img{
+    margin-left: 8px;
+    padding: 10px;
+}
+
+.banner {
+    position: relative;
+    width: 1950px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.banner .img1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1535px;
+    height: 500px;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.texto-banner {
+    position: relative;
+    z-index: 1;
+    font-family: "Cinzel", serif;
+    color: #1F1F1F;
+    margin-top: 150px;
+    text-align: center;
+    margin-left: -450px;
+}
+
+.texto-banner a {
+    display: inline-block;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: gray;
+}
+
+.roleta{
+    background-color: #DADADA;
+    width: 100%;
+    height: 650px;
+    align-items: center;
+    margin-top: 10px;
+
+}
+
+.roleta2{
+    margin-top: 20px;
+}
+
+.h1{
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+
+.img2{
+    display: flex;
+    margin-left: 500px;
+}
+
+.fim{
+    background-color: #FFFDF3;
+    width: 100%;
+    height: 600px;
+    float: left;
+    display: flex;
+}
+
+.mapa{
+    margin-left: 200px;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Cinzel", serif;
+}
+
+.map{
+    margin-top: 40px;
+}
+
+.img3{
+    margin-left: 50px;
+    margin-top: 130px;
+}
+
+.barra{
+    clear: both;
+    background-color: #1F1F1F;
+    width: 100%;
+    height: 60px;
+    align-self: flex-end;
+    font-family: "Cinzel", serif;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
